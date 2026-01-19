@@ -23,13 +23,18 @@ import {
 } from "react-icons/pi";
 
 import {
-  SiJavascript,
-  SiNextdotjs,
-  SiFigma,
   SiSupabase,
+  SiPhp,
+  SiTypescript,
+  SiReact,
+  SiCodeigniter,
+  SiLaravel,
+  SiPostgresql,
+  SiMysql,
+  SiPython,
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, FaSpider, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -54,16 +59,22 @@ export const iconLibrary: Record<string, IconType> = {
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
-  javascript: SiJavascript,
-  nextjs: SiNextdotjs,
   supabase: SiSupabase,
-  figma: SiFigma,
   facebook: FaFacebook,
   pinterest: FaPinterest,
   whatsapp: FaWhatsapp,
   reddit: FaReddit,
   telegram: FaTelegram,
   instagram: FaInstagram,
+  php: SiPhp,
+  typescript: SiTypescript,
+  react: SiReact,
+  codeigniter: SiCodeigniter,
+  laravel: SiLaravel,
+  postgresql: SiPostgresql,
+  mysql: SiMysql,
+  python: SiPython,
+  spider: FaSpider,
 };
 
 export type IconLibrary = typeof iconLibrary;
