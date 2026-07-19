@@ -10,6 +10,7 @@ const person: Person = {
   email: "jonathansupriadi10@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
 
 const newsletter: Newsletter = {
@@ -71,7 +72,7 @@ const home: Home = {
   subline: (
     <>
     I'm Jo, a Developer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I build scalable <br /> web applications. After hours, I develop my own projects.
-</>
+    </>
   ),
 };
 
